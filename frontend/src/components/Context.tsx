@@ -1,0 +1,71 @@
+import { Typography, Link, Box } from "@material-ui/core";
+import React from "react";
+import { makeStyles, Theme } from "@material-ui/core/styles";
+import YouTube from "react-youtube";
+
+const useStyles = makeStyles((theme: Theme) => ({
+    root: {
+        marginTop: "20px",
+    },
+}));
+
+export const Context: React.FC = () => {
+    const classes = useStyles();
+    const opts = {};
+
+    return (
+        <div className={classes.root}>
+            <Typography variant="h3">Contexte</Typography>
+            <Box display="flex">
+                <Box flexGrow={1}>
+                    <ol>
+                        <li>
+                            <Link href="https://www.can-explore.com/">Can-Explore</Link> ➡{" "}
+                            <Link href="https://xpect.io/">xpect.io</Link>
+                        </li>
+                        <ul>
+                            <li>
+                                <Link href="https://www.youtube.com/channel/UCIBE-GQM9_s7ZymE4R41t0g ">YouTube</Link>,{" "}
+                                <Link href="https://www.linkedin.com/company/9297433">LinkedIn</Link>,{" "}
+                                <Link href="">Facebook</Link>...
+                            </li>
+                        </ul>
+
+                        <li>Équipe / Mandats</li>
+                        <ul>
+                            <li> Développeurs de logiciels (x8)</li>
+                            <ul>
+                                <li>Applications Web (Python/React)</li>
+                                <li>Machine Learning: traitement d'images (TensorFlow)</li>
+                            </ul>
+                            <li> Ingénieurs mécaniques (x2)</li>
+                            <ul>
+                                <li>Conception (e.g. roues, chenilles, supports)</li>
+                            </ul>
+                        </ul>
+                        <li>Bio / Intérêts</li>
+                        <li>
+                            OpenCV JS?... TensorFlow JS?... Utile?
+                            <ul>
+                                {" "}
+                                <li>
+                                    {" "}
+                                    #TripTechno{" "}
+                                    <span role="img" aria-label="Stuck tongue emoji">
+                                        😛
+                                    </span>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>Question: vos connaissances en Web et ML?</li>
+                    </ol>
+                </Box>
+
+                <Box>
+                    <YouTube videoId="IRQJxyuxDx4" opts={opts} onReady={() => {}} />
+                </Box>
+            </Box>
+        </div>
+    );
+};

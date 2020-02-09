@@ -1,0 +1,15 @@
+{
+  "name": "ml-meetup-node-backend",
+  "version": "1.0.0",
+  "description": "Minimal experiment with tensorflowjs",
+  "main": "index.js",
+  "author": "Sebastien Michaud",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs-node-gpu": "^1.5.2",
+    "argparse": "^1.0.10"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
