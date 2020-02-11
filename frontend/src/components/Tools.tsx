@@ -68,6 +68,7 @@ export const Tools: React.FC = () => {
             <ul>
                 <li>Utilisation et fonctions relativement similaires entre les libs</li>
                 <ul>
+                    <li>Ingestion des données</li>
                     <li>Entrainement</li>
                     <li>Predictions</li>
                     <li>Serialisation de modèle en JSON</li>

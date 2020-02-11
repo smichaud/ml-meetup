@@ -18,19 +18,19 @@ export const Content: React.FC = () => {
 
             <ol>
                 <li>
-                    <a href={ROUTES.CONTEXT}>Contexte et Can-Explore</a>
+                    <a href={ROUTES.CONTEXT}>Can-Explore et contexte</a>
                 </li>
                 <li>
-                    <a href={ROUTES.WHY}>Pourquoi / Exemple d'utilisation</a>
+                    <a href={ROUTES.WHY}>Pourquoi / Exemples d'utilisation</a>
                 </li>
                 <li>
                     <a href={ROUTES.TOOLS}>Outils / Librairies</a>
                 </li>
                 <li>
-                    <a href={ROUTES.TFJS}>TensorFlow JS</a>
+                    <a href={ROUTES.TFJS}>TensorFlow.js</a>
                 </li>
                 <li>
-                    <a href={ROUTES.OPENCV}>OpenCV JS</a>
+                    <a href={ROUTES.OPENCV}>OpenCV.js</a>
                 </li>
                 <li>
                     <a href={ROUTES.CONCLUSION}>Conclusion</a>

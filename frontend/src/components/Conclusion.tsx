@@ -21,25 +21,9 @@ export const Conclusion: React.FC = () => {
                     <li>Un bon éventail d'outils/fonctionnalités</li>
                     <li>TensorFlow, pas trop dépaysant</li>
                     <li>Synergise bien avec Python</li>
-                    <li>TFJS, console.log... please...</li>
+                    <li>TensorFlow.js, console.log... please...</li>
                 </ul>
-                <li>Ma prédiction...: évolution des outils (GPU, WebAssembly, etc), tendance vers le web.</li>
-                {/* <li>Expérience avec le frontend: </li>
-                <ul>
-                    <li>
-                        Quelques accro de life cycle, css, typescript. Sinon,{" "}
-                        <span role="img" aria-label="thumb up">
-                            {" "}
-                            👍{" "}
-                        </span>{" "}
-                    </li>
-                </ul>
-                <li>Utilisation du frontend pour la présentation.</li>
-                <ul>
-                    <li>Avantages: utilisation des outils du browser, navigation, flexible</li>
-                    <li>Désavantages: overhead, visibilité?</li>
-                    <li>Votre opinion?</li>
-                </ul> */}
+                <li>My two cents...</li>
             </ul>
             <ul>
                 <li>

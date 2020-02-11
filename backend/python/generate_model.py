@@ -4,8 +4,10 @@ import tensorflowjs as tfjs
 model = tf.keras.models.Sequential(
     [
         tf.keras.layers.Flatten(input_shape=(28, 28)),
-        tf.keras.layers.Dense(128, activation="relu"),
-        tf.keras.layers.Dropout(0.2),
+        tf.keras.layers.Dense(69, activation="relu"),
+        tf.keras.layers.Dropout(0.15),
+        tf.keras.layers.Dense(42, activation="relu"),
+        tf.keras.layers.Dropout(0.15),
         tf.keras.layers.Dense(10),
     ]
 )
@@ -20,7 +22,7 @@ model.compile(optimizer="adam", loss=loss_fn, metrics=["accuracy"])
 model.fit(x_train, y_train, epochs=5)
 
 
-# Saving a hdf5 version
-model.save("./saved_model.h5")
-# Saving a TensorFlow JS JSON version
+# Saving a TensorFlow JS JSON version (which also create the directory)
 tfjs.converters.save_keras_model(model, "./saved_model/")
+# Saving a hdf5 version
+model.save("./saved_model/model.hdf5")

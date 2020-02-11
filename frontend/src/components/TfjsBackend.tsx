@@ -42,6 +42,7 @@ export const TfjsBackend: React.FC = () => {
     const classes = useStyles();
     const loadModel = async () => {
         const model = await tf.loadLayersModel("http://localhost:5000/model.json");
+        console.log("should come from my backend....");
         model.summary();
     };
 
