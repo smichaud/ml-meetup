@@ -186,21 +186,21 @@ export const Tfjs: React.FC = () => {
             <Button variant="outlined" onClick={createModel}>
                 Run
             </Button>
-            <h3>Entrainer un model</h3>
+            <h3>Entraîner un model</h3>
             <SyntaxHighlighter language="javascript" style={solarizedDark}>
                 {codeTrainModel}
             </SyntaxHighlighter>
             <Button variant="outlined" onClick={trainModel}>
                 Run
             </Button>
-            <h3>Predictions</h3>
+            <h3>Prédictions</h3>
             <SyntaxHighlighter language="javascript" style={solarizedDark}>
                 {codePredictSamples}
             </SyntaxHighlighter>
             <Button variant="outlined" onClick={predictSamples}>
                 Run
             </Button>
-            <h3>Sauvegarder un model</h3>
+            <h3>Sauvegarder un modèle</h3>
             <Box display="flex" alignItems="center">
                 <Box flexGrow={1}>
                     <SyntaxHighlighter language="javascript" style={solarizedDark}>

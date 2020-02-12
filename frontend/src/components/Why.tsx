@@ -1,11 +1,14 @@
 import { Typography, Link, Box } from "@material-ui/core";
 import React from "react";
-import { makeStyles, Theme } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles((theme: Theme) => ({
+const useStyles = makeStyles(() => ({
     root: {
         marginTop: "20px",
     },
+    img: {
+        maxWidth: "400px",
+    }
 }));
 
 export const Why: React.FC = () => {
@@ -20,7 +23,7 @@ export const Why: React.FC = () => {
                         <li>Hypothèses / Intuitions</li>
                         <ul>
                             <li>Expérience ou stack en JS</li>
-                            <li>Traitement sur côté client.</li>
+                            <li>Traitement côté client</li>
                             <li>Aucune installation ~, offline avec Service Worker</li>
                             <li>Multiplateforme (pas comme Python...)</li>
                             <li>Communauté ➡ Outils ➡ Intégration (e.g. visualisation)</li>
@@ -51,7 +54,7 @@ export const Why: React.FC = () => {
                     </ul>
                 </Box>
                 <Box display={{ xs: "none", md: "block" }}>
-                    <img
+                    <img className={classes.img}
                         src="tenor.gif"
                         alt="But why, source: https://tenor.com/view/but-why-ryan-reynolds-meme-gif-8122079"
                     />

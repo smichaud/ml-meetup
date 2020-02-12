@@ -42,7 +42,7 @@ export const Tools: React.FC = () => {
                             <Link href="https://github.com/karpathy/convnetjs">ConvNetJS</Link> (Convolutional Neural
                             Networks) -- ⭐ 9.9k,{" "}
                             <Link href="https://npm-stat.com/charts.html?package=convnetjs">33,910 npm downloads</Link>{" "}
-                            ... Andrej karpathy
+                            ... Andrej Karpathy
                         </li>
                         <li>
                             <Link href="https://github.com/wagenaartje/neataptic">Neataptic</Link> (Neural Networks) --
@@ -61,7 +61,7 @@ export const Tools: React.FC = () => {
             </ul>
             <ul>
                 <li>
-                    <Link href="https://github.com/tensorflow/tfjs">TensorFlow.js</Link> (💀 Keras.js) -- ⭐ 12.6k,{" "}
+                    <Link href="https://github.com/tensorflow/tfjs">TensorFlow.js</Link> (Keras.js 💀) -- ⭐ 12.6k,{" "}
                     <Link href="https://npm-stat.com/charts.html?package=tfjs">2,367 npm downloads</Link>
                 </li>
             </ul>
@@ -69,11 +69,11 @@ export const Tools: React.FC = () => {
                 <li>Utilisation et fonctions relativement similaires entre les libs</li>
                 <ul>
                     <li>Ingestion des données</li>
-                    <li>Entrainement</li>
-                    <li>Predictions</li>
-                    <li>Serialisation de modèle en JSON</li>
+                    <li>Entraînement</li>
+                    <li>Prédictions</li>
+                    <li>Sérialisation de modèle en JSON</li>
                     <li>
-                        Certaine fonctions utilitaires propre au domaine (e.g. fetch de wikipedia, tokenizer, filtres
+                        Certaines fonctions utilitaires propres au domaine (e.g. fetch de wikipedia, tokenizer, filtres
                         d'images){" "}
                     </li>
                 </ul>

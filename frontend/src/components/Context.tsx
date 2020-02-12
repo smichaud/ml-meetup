@@ -1,11 +1,14 @@
 import { Typography, Link, Box } from "@material-ui/core";
 import React from "react";
-import { makeStyles, Theme } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import YouTube from "react-youtube";
 
-const useStyles = makeStyles((theme: Theme) => ({
+const useStyles = makeStyles(() => ({
     root: {
         marginTop: "20px",
+    },
+    vid: {
+        maxWidth: "400px",
     },
 }));
 
@@ -33,7 +36,7 @@ export const Context: React.FC = () => {
 
                         <li>Équipe / Mandats</li>
                         <ul>
-                            <li> Développeurs de logiciels (x8)</li>
+                            <li> Développeurs (x8)</li>
                             <ul>
                                 <li>Applications Web (Python/React)</li>
                                 <li>Machine Learning: traitement d'images (TensorFlow)</li>
@@ -63,7 +66,7 @@ export const Context: React.FC = () => {
                 </Box>
 
                 <Box>
-                    <YouTube videoId="IRQJxyuxDx4" opts={opts} onReady={() => {}} />
+                    <YouTube className={classes.vid} videoId="IRQJxyuxDx4" opts={opts} onReady={() => {}} />
                 </Box>
             </Box>
         </div>

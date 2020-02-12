@@ -25,7 +25,7 @@ export const OpenCV: React.FC = () => {
                     , <Link href="https://github.com/ucisysarch/opencvjs">Github</Link>
                 </li>
                 <li>
-                    Les exemples passe toujours pas un compilation{" "}
+                    Les exemples passent toujours par une compilation{" "}
                     <Link href="https://emscripten.org/">Emscripten</Link>.{" "}
                 </li>
                 <li> Il semble que `yarn add opencv.js` fonctionne... Maintenant, comment l'utiliser?</li>
