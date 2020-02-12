@@ -1,12 +1,12 @@
 import * as tf from "@tensorflow/tfjs";
 
 import React, { useState } from "react";
-import { makeStyles, Theme } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import { Button, Link, Box } from "@material-ui/core";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { solarizedDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
-const useStyles = makeStyles((theme: Theme) => ({
+const useStyles = makeStyles(() => ({
     root: {
         marginTop: "20px",
     },

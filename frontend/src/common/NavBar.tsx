@@ -14,8 +14,11 @@ export const NavBar: React.FC = () => {
 
     return (
         <Breadcrumbs className={classes.root} separator="›" aria-label="breadcrumb">
-            <Link color={window.location.pathname === ROUTES.CONTENT ? "textPrimary" : "inherit"} href={ROUTES.CONTENT}>
-                Contenu
+            <Link
+                color={window.location.pathname === ROUTES.OBJECTIVES ? "textPrimary" : "inherit"}
+                href={ROUTES.OBJECTIVES}
+            >
+                Objectifs
             </Link>
 
             <Link color={window.location.pathname === ROUTES.CONTEXT ? "textPrimary" : "inherit"} href={ROUTES.CONTEXT}>

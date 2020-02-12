@@ -1,8 +1,8 @@
 import React from "react";
-import { makeStyles, Theme } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import { Link, Typography } from "@material-ui/core";
 
-const useStyles = makeStyles((theme: Theme) => ({
+const useStyles = makeStyles(() => ({
     root: {
         marginTop: "20px",
     },
@@ -13,7 +13,7 @@ export const OpenCV: React.FC = () => {
 
     return (
         <div className={classes.root}>
-            <Typography variant="h3">OpenCV JS</Typography>
+            <Typography variant="h3">OpenCV.js</Typography>
 
             <ul>
                 <li>

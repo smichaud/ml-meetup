@@ -1,5 +1,5 @@
 export const ROUTES = {
-    CONTENT: "/",
+    OBJECTIVES: "/",
     CONTEXT: "/context",
     WHY: "/why",
     TOOLS: "/tools",
@@ -7,5 +7,4 @@ export const ROUTES = {
     TFJS_BACKEND: "/tfjs-backend",
     OPENCV: "/opencv",
     CONCLUSION: "/conclusion",
-    EXPERIMENTS: "/experiments",
 };

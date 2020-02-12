@@ -1,8 +1,8 @@
 import { Typography } from "@material-ui/core";
 import React from "react";
-import { makeStyles, Theme } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles((theme: Theme) => ({
+const useStyles = makeStyles(() => ({
     root: {
         marginTop: "20px",
     },
@@ -29,8 +29,8 @@ export const Conclusion: React.FC = () => {
                 <li>
                     Je profite de la plateforme pour
                     <ul>
-                        <li>Sonder le terrain sur l'intérêt pour des partages de connaissances/tutoriaux ?</li>
-                        <li>Recommendations pour digit recognition?</li>
+                        <li>Sonder le terrain sur l'intérêt pour des évènements tutoriaux/hands-on/challenges ?</li>
+                        <li>Recommendations pour digit recognition dans les vidéos?</li>
                     </ul>
                 </li>
             </ul>

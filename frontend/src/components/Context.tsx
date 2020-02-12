@@ -47,19 +47,7 @@ export const Context: React.FC = () => {
                             </ul>
                         </ul>
                         <li>Bio / Intérêts</li>
-                        <li>
-                            OpenCV JS?... TensorFlow JS?... Utile?
-                            <ul>
-                                {" "}
-                                <li>
-                                    {" "}
-                                    #TripTechno{" "}
-                                    <span role="img" aria-label="Stuck tongue emoji">
-                                        😛
-                                    </span>
-                                </li>
-                            </ul>
-                        </li>
+                        <li>OpenCV JS?... TensorFlow JS?... Utile?</li>
 
                         <li>Question: vos connaissances en Web et ML?</li>
                     </ol>
