@@ -45,5 +45,5 @@ termcolor==1.1.0
 urllib3==1.25.8
 wcwidth==0.1.8
 werkzeug==1.0.0
-wheel==0.34.2 ; python_version >= '3'
+wheel==0.38.1 ; python_version >= '3'
 wrapt==1.11.2
